@@ -607,7 +607,7 @@ $mod_strings = array(
     'LBL_CONFIRM_LOWER_LENGTH' => 'Los datos pueden ser truncados y ésto no podrá deshacerse, ¿está seguro de que desea continuar?',
 
 //POPUP HELP
-    'LBL_POPHELP_FIELD_DATA_TYPE' => 'Selecciona el tipo de datos adecuado según el tipo de datos que serán introducidos en el campo.',
+    'LBL_POPHELP_FIELD_DATA_TYPE' => 'Seleccione el tipo de datos apropiado acorde con el tipo de datos que será introducido en el campo.',
     'LBL_POPHELP_IMPORTABLE' => '<b>Sí</b>: El campo será incluido en una operación de importación.<br><b>No</b>: El campo no será incluido en una importación.<br><b>Requerido</b>: Debe de suministrarse un valor para el campo en toda importación.',
     'LBL_POPHELP_IMAGE_WIDTH' => 'Introduzca un número para la Anchura, como medida en píxeles.<br> La imagen subida será escalada a esta Anchura.',
     'LBL_POPHELP_IMAGE_HEIGHT' => 'Introduzca un número para la Altura, como medida en píxeles.<br> La imagen subida será escalada a esta Altura.',
