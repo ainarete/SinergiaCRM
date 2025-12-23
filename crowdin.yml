@@ -1,9 +1,27 @@
 files:
   - source: '*es_ES.lang.php*'
     translation: /%original_path%/%locale_with_underscore%.lang.php
+    # 1. Evita que salgan frases en castellano si no hay traducción
+    skip_untranslated_strings: true
+    # 2. Evita que se borren traducciones si cambias el original
+    update_option: "update_as_unapproved" 
+
   - source: '*es_ES.SticLang.php*'
     translation: /%original_path%/%locale_with_underscore%.SticLang.php
+    skip_untranslated_strings: true
+    update_option: "update_as_unapproved"
+
   - source: '*es_ES.KReporterCore.php*'
     translation: /%original_path%/%locale_with_underscore%.KReporterCore.php
+    skip_untranslated_strings: true
+    update_option: "update_as_unapproved"
+
   - source: '*es_ES.MailMergeReports.php*'
     translation: /%original_path%/%locale_with_underscore%.MailMergeReports.php
+    skip_untranslated_strings: true
+    update_option: "update_as_unapproved"
+
+languages_mapping:
+  locale_with_underscore:
+    gl: gl_ES
+    eu: eu_ES
